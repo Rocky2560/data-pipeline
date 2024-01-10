@@ -7,6 +7,7 @@ project structure for spring boot application.
 1) <code> java -jar <app>.jar --spring.config.location=<properties file location> </code>
 
 The endpoint in this project are:
+
 Endpoint: validate
 Info: Returns lpcardno of the existing user, only returns first user incase multiple users are registered with the same mobile number
 URL: 182.93.86.58:2076/validate
