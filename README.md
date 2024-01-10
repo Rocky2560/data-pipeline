@@ -32,16 +32,14 @@ Endpoint: sales_history
 Info: Counts total records for mutiple lpcardno's and starts to fetch sales history of users and returns last fetch offset. After all records are fetched for those lpcardno, status done is sent.
 URL: 182.93.86.58:2076/sales_history
 Format: 
-<code>
-{
-	
+
+{	
 	"start_date": "String",
 	"end_date": "String",
 	"lpcardno": "String",
 	"limit": int,
 	"offset_value": int
 	}
-</code>
 Endpoint: enc_table
 Info: Returns records from a table that do not have date column. Records are fetched on the basis of last offset
 URL: 182.93.86.58:2076/enc_table
