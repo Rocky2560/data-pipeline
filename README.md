@@ -11,10 +11,10 @@ Endpoint: validate
 Info: Returns lpcardno of the existing user, only returns first user incase multiple users are registered with the same mobile number
 URL: 182.93.86.58:2076/validate
 Format: 
-{
+<code>{
 	"mobile_no": "String"
 	}
-
+</code>
 Endpoint: enc_date_table
 Info: Returns records from a table based on certain date range
 URL: 182.93.86.58:2076/enc_date_table
